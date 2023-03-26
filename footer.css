@@ -41,7 +41,9 @@ footer {
     color: #CEEDDB;
     border-right: 1px solid #CEEDDB;
   }
-  
+  .col-2 a:last-child {
+    border-right: none;
+  }
   .last {
     margin-top: 10px;
     padding-top: 10px;

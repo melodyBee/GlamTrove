@@ -1,0 +1,111 @@
+/*  #DA627D color
+    #2F195F navbar
+    #7353BA add to cart
+    #F0F0C9 bgc
+    #CEEDDB extra
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  #banner img {
+    height: 633px;
+    width: 100%;
+  
+  }
+  
+  #cards {
+    display: flex;
+    justify-content: center;
+    background-color: #DA627D;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 5px;
+  }
+  
+  .card-container img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+  }
+  
+  .card-container h3 {
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation:
+      typing 5.0s steps(30, end) infinite,
+      blink-caret step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  
+    to {
+      width: 100%
+    }
+  }
+  
+  @keyframes blink-caret {
+  
+    from,
+    to {
+      opacity: 0
+    }
+  
+    50% {
+      opacity: 1
+    }
+  }
+  
+  /* .card-container h3 {
+      
+      font-size: 17px;
+      margin-top: 5px;
+    } */
+  .about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .image {
+    flex: 1 1 40%;
+    margin-right: 50px;
+  }
+  
+  .image img {
+    width: 70%;
+    height: auto;
+  }
+  
+  .contents {
+    flex: 1 1 50%;
+  }
+  
+  .contents h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contents p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
